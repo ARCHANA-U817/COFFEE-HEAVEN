@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="cafe.css">
+    <style>
+        .hero {
+            background: url('bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">Coffee Haven</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Our Story</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Our Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#review">Review</a></li>
+                <li class="nav-item"><a class="nav-link" href="#review">Book Now</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section with Animation -->
+<header class="hero d-flex align-items-center text-white text-center">
+    <div class="container animate__animated animate__fadeInUp ">
+        <h1 class="display-3">Brewed to Perfection</h1>
+        <br><br>
+        <p class="lead">Enjoy the finest coffee crafted with passion.</p>
+        <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+       </div>
+  
+</header>
+
+    <div class="story-section" id="about">
+        <h1 class="animate__animated animate__fadeInDown display-4">Our Story</h1>
+        <p class="animate__animated animate__fadeInUp">Nestled on a cozy corner of a bustling street, Coffee Heaven stands as a sanctuary for those seeking warmth, comfort, and a touch of serenity. The aroma of freshly ground beans drifts through the air, drawing in passersby with the promise of a momentary escape. The café was founded by Maya, a passionate coffee enthusiast who believed that every cup of coffee tells a story. She grew up watching her grandmother brew coffee over a rustic stove in a small village, sharing laughter and wisdom with neighbors who stopped by. To Maya, coffee wasn't just a drink — it was a bridge between hearts. </p>
+        <img src="cover2.jpg" class="story-image animate__animated animate__zoomIn" alt="Our Story">
+    </div>
+
+    <br><br>
+
+
+<!-- Featured Section with AOS -->
+<section class="container py-5" id="features">
+    <div class="row">
+        <h1 class="ab text-center display-4" style="color:#a78d7a;">OUR GALLERY</h1>
+
+        <!-- Specialty Lattes -->
+        <section id="products" class="container py-5 wow fadeInUp">
+            <h2 class="text-center mb-4">Specialty Lattes</h2>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4">
+                    <div class="card text-dark">
+                        <img src="coffee.jpg" class="card-img-top" alt="Heaven’s Layers">
+                        <div class="card-body">
+                            <h5 class="card-title">Heaven’s Layers</h5>
+                            <p class="card-text">$120</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.2s">
+                    <div class="card text-dark">
+                        <img src="cup2.jpg" class="card-img-top" alt="Soulful Sip">
+                        <div class="card-body">
+                            <h5 class="card-title">Soulful Sip</h5>
+                            <p class="card-text">$100</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                    <div class="card text-dark">
+                        <img src="cup3.jpg" class="card-img-top" alt="Velvet Sunrise">
+                        <div class="card-body">
+                            <h5 class="card-title">Velvet Sunrise</h5>
+                            <p class="card-text">$150</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frosty Fusions -->
+        <section id="products" class="container py-5 wow fadeInUp">
+            <h2 class="text-center mb-4">Frosty Fusions</h2>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4">
+                    <div class="card text-dark">
+                        <img src="cold.jpg" class="card-img-top" alt="Icy Espresso Splash">
+                        <div class="card-body">
+                            <h5 class="card-title">Icy Espresso Splash</h5>
+                            <p class="card-text">$90</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.2s">
+                    <div class="card text-dark">
+                        <img src="cold 3.jpg" class="card-img-top" alt="Chilled Mocha Dream">
+                        <div class="card-body">
+                            <h5 class="card-title">Chilled Mocha Dream</h5>
+                            <p class="card-text">$200</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                    <div class="card text-dark">
+                        <img src="cold2.jpg" class="card-img-top" alt="Citrus Cold Shake">
+                        <div class="card-body">
+                            <h5 class="card-title">Citrus Cold Shake</h5>
+                            <p class="card-text">$180</p>
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="products" class="container py-5 wow fadeInUp">
+        <h2 class="text-center mb-4">Coffee-Infused Delights</h2>
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                <div class="card text-dark">
+                    <img src="cake.jpg" class="card-img-top" alt="Perfume 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappuccino Cloud Cake</h5>
+                        <p class="card-text">$500</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                <div class="card text-dark">
+                    <img src="ice.jpg" class="card-img-top" alt="Perfume 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Caramel Crunch Chill</h5>
+                        <p class="card-text">$250</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                <div class="card text-dark">
+                    <img src="bis.jpg" class="card-img-top" alt="Perfume 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Caramel Macchiato Melts</h5>
+                        <p class="card-text">$190</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+  
+</section>
+</section>
+
+        
+
+        <br><br>
+        <br><br>
+        <div class="container my-5" id="review">
+            <h2 class="text-center display-4" style="color:rgb(76, 6, 6)">What Our Customers Say</h2>
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card p-4 text-center shadow-lg">
+                            <p class="fw-bold">"Amazing taste and great service!"</p>
+                            <p>- John Doe ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4 text-center shadow-lg">
+                            <p class="fw-bold">"Love the ambiance and the drinks!"</p>
+                            <p>- Jane Smith ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4 text-center shadow-lg">
+                            <p class="fw-bold">"Best place to chill and work."</p>
+                            <p>- Mark Lee ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+        
+    </head>
+    <body>
+        <br><br>
+        <div class="container "id="">
+            <div class="row">
+            <div class="offer col-10 col-sm-6 col-md-4 col-lg-3 wow zoomIn mb-4" data-wow-delay="0.4s">
+                <h1>30% OFF</h1>
+                <h2>☕️ Coffee Offer</h2>
+                <p>"Discover irresistible coffee offers that brew joy in every cup! From exclusive discounts to combo deals, there's a treat for every coffee lover!"</p>
+                <ul class="checklist">
+                    <li>Buy One, Get One Free: Ideal for boosting foot traffic during off-peak hours.</li>
+                    <li>Happy Hour Discounts: 20% off on all coffee drinks from 3 PM to 5 PM.</li>
+                    <li>Subscription Offers: Monthly coffee subscription with exclusive perks. </li>
+                </ul>
+            </div>
+            
+                
+            
+            <div class="form-container" >
+                <h2>Book Your Table</h2>
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="date" required>
+                    <input type="time" required>
+                    <select required>
+                        <option value="">Person</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 Persons</option>
+                        <option value="3">3 Persons</option>
+                        <option value="4+">4+ Persons</option>
+                    </select>
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+        </div>
+<!-- Footer -->
+ <section>
+<footer class=" text-white text-center py-3 custom-foot">
+    <p>© 2025 Coffee Haven | Crafted with ❤️</p>
+</footer>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
